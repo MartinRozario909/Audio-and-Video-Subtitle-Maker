@@ -1,0 +1,47 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+
+# --- Downloaded AI models (Whisper .pt files, Hugging Face cache) ---
+models/
+
+# --- Generated at runtime (dropdown arrow icons) ---
+assets/
+
+# --- Input media ---
+*.mp3
+*.wav
+*.m4a
+*.flac
+*.ogg
+*.opus
+*.aac
+*.wma
+*.mp4
+*.mkv
+*.mov
+*.avi
+*.webm
+*.flv
+*.wmv
+*.m4v
+
+# --- Generated subtitles / transcripts ---
+*.srt
+*.vtt
+*.tsv
+*.txt
+!requirements.txt
+
+# --- Secrets / local settings ---
+.env
+.claude/settings.local.json
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
